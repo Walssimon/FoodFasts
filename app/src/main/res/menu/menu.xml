@@ -10,25 +10,25 @@
         android:id="@+id/MBuscar"
         android:icon="@drawable/ic_baseline_search"
         android:title="Buscar"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="withText" />
     <item
         android:id="@+id/MConfig"
         android:icon="@drawable/ic_baseline_settings"
         android:title="Configurações"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="withText" />
     <item
         android:id="@+id/MHistory"
         android:icon="@drawable/ic_baseline_history"
         android:title="Histórico"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="withText" />
     <item
         android:id="@+id/MSobre"
         android:icon="@drawable/ic_baseline_info"
         android:title="Sobre"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="withText" />
     <item
         android:id="@+id/MShare"
         android:icon="@drawable/ic_baseline_share"
         android:title="Compartilhe"
-        app:showAsAction="always" />
+        app:showAsAction="withText" />
 </menu>

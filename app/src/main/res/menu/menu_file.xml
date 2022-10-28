@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Mnovo"
+        android:icon="@drawable/ic_baseline_insert_drive_file"
+        android:title="Novo"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/Mabrir"
+        android:icon="@drawable/ic_baseline_folder"
+        android:title="Abrir" />
+
+    <item
+        android:id="@+id/Mrecente"
+        android:icon="@drawable/ic_baseline_access_time"
+        android:title="Recentes" />
+
+    <group>
+        <item
+            android:id="@+id/Msalvar"
+            android:icon="@drawable/ic_baseline_save"
+            android:title="Salvar" />
+        <item
+            android:id="@+id/Msalvarcomo"
+            android:icon="@drawable/ic_baseline_save_as"
+            android:title="Salvar Como..." />
+    </group>
+
+
+</menu>
