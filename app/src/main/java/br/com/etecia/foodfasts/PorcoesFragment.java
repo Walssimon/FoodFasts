@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class PorcoesFragment extends Fragment {
@@ -27,7 +28,8 @@ public class PorcoesFragment extends Fragment {
         btnEscolha.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                String nome = edtPorcoes.getText().toString();
+                Toast.makeText(getContext(),"Você escolheu"+ nome,Toast.LENGTH_SHORT).show();
             }
         });
 
