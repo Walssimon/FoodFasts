@@ -38,4 +38,27 @@
         android:id="@+id/idContainertab"
         android:layout_below="@id/idTablayout"/>
 
+    <include layout="@layout/fragment_porcoes_layout"
+        android:id="@+id/fragporcoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTablayout"
+        />
+
+   <include
+       android:id="@+id/fragbebidas"
+       layout="@layout/fragment_bebidas_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragporcoes"
+        />
+
+   <include
+       android:id="@+id/fraglanches"
+       layout="@layout/fragment_lnaches_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fragbebidas"
+        />
+
 </RelativeLayout>
